@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <footer class="px-4 py-6">
     <div class="items-center justify-around lg:flex">

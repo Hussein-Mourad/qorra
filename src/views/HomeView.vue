@@ -1,5 +1,10 @@
+<script setup>
+import CardDetails from '../components/CardDetails.vue'
+</script>
 <template>
-  <div>home</div>
+  <section>
+    <CardDetails />
+  </section>
 </template>
 <script>
 export default {}
