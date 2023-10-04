@@ -5,7 +5,7 @@ import SearchInput from './SearchInput.vue'
 </script>
 
 <template>
-  <nav class="px-4 py-2 shadow-sm transition-all lg:px-6">
+  <nav class="z-50 px-4 py-2 shadow-sm transition-all lg:px-6">
     <div class="flex items-center justify-between">
       <button @click="toggleMenu()" class="lg:hidden">
         <img src="@/assets/imgs/mobile_burger_menu.svg" alt="burger menu" />
