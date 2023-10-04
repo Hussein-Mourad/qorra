@@ -2,7 +2,7 @@
 <template>
   <button
     @click="onClick()"
-    :class="['rounded-sm bg-[#5165FD] px-4 py-2 text-white', classes]"
+    :class="['rounded-sm bg-[#5165FD] text-white', classes]"
     :disabled="disabled"
   >
     <slot></slot>
@@ -21,4 +21,3 @@ export default {
   }
 }
 </script>
-<style lang=""></style>

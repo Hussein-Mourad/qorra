@@ -1,28 +1,34 @@
 <script setup>
-import Button from './Button.vue'
 import { RouterLink } from 'vue-router'
+import Button from './Button.vue'
+import SearchInput from './SearchInput.vue'
 </script>
 
 <template>
-  <nav class="px-6 py-5 shadow-sm">
+  <nav class="px-6 py-2 shadow-sm transition-all">
     <div class="flex items-center justify-between">
-      <button @click="toggleMenu()">
+      <button @click="toggleMenu()" class="lg:hidden">
         <img src="@/assets/imgs/mobile_burger_menu.svg" alt="burger menu" />
       </button>
-      <div></div>
-      <!-- <form action=""></form>
-    <div class="flex w-96 items-center justify-between">
-      <h1>الرئيسية</h1>
-      <h1>من نحن</h1>
-      <h1>راسلنا</h1>
-    </div> -->
+
+      <form class="hidden lg:flex">
+        <Button classes="px-11 ml-5">تطوع معنا</Button>
+        <SearchInput />
+      </form>
+
+      <ul class="hidden items-center text-xl lg:flex">
+        <li class="pl-16">الرئيسية</li>
+        <li class="pl-16">من نحن</li>
+        <li class="pl-32">راسلنا</li>
+      </ul>
+
       <RouterLink to="/">
-        <div class="h-9 w-10">
+        <div class="h-9 w-10 md:h-16 md:w-20">
           <img src="@/assets/imgs/logo.png" alt="Qorra logo" />
         </div>
       </RouterLink>
     </div>
-    <div :class="[{ hidden: !showMenu }, 'py-10 text-xl']">
+    <div :class="[{ hidden: !showMenu }, 'py-10 text-xl lg:hidden']">
       <ul>
         <li class="pb-11">الرئيسية</li>
         <li class="pb-11">من نحن</li>
@@ -46,4 +52,3 @@ export default {
   }
 }
 </script>
-<style lang=""></style>
