@@ -12,18 +12,18 @@ import SearchInput from './SearchInput.vue'
       </button>
 
       <form class="hidden lg:flex">
-        <Button classes="px-11 py-2 2xl:py-8 2xl:px-20 2xl:text-4xl ml-5">تطوع معنا</Button>
+        <Button classes="px-11 py-2 ml-5">تطوع معنا</Button>
         <SearchInput />
       </form>
 
-      <ul class="hidden items-center text-xl lg:flex 2xl:text-4xl">
+      <ul class="hidden items-center text-xl lg:flex">
         <li class="pl-16">الرئيسية</li>
         <li class="pl-16">من نحن</li>
         <li class="pl-32">راسلنا</li>
       </ul>
 
       <RouterLink to="/">
-        <div class="h-8 w-10 md:h-12 md:w-14 lg:h-16 lg:w-20 2xl:h-32 2xl:w-40">
+        <div class="h-8 w-10 md:h-12 md:w-14 lg:h-16 lg:w-20">
           <img src="@/assets/imgs/logo.png" alt="Qorra logo" />
         </div>
       </RouterLink>

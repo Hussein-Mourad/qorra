@@ -12,7 +12,7 @@ import Card from './Card.vue'
       readingDuration=" 5 دقائق قراءة"
       date="2 فبراير"
     />
-    <div class="flex lg:flex-col">
+    <div class="flex lg:w-2/5 lg:flex-col xl:w-auto">
       <Card
         classes="ml-5 lg:ml-0 lg:mb-5"
         :img="img2"
