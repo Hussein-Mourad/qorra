@@ -5,7 +5,11 @@ module.exports = {
     fontFamily: {
       sans: ['Cairo']
     },
-    extend: {}
+    extend: {
+      colors: {
+        primary: '#5165FD'
+      }
+    }
   },
   plugins: []
 }

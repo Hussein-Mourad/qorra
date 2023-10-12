@@ -2,7 +2,7 @@
 <template>
   <button
     @click="onClick()"
-    :class="['rounded-sm bg-[#5165FD] text-white', classes]"
+    :class="['rounded-sm bg-primary text-white', classes]"
     :disabled="disabled"
   >
     <slot></slot>

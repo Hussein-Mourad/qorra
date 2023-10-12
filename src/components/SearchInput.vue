@@ -6,7 +6,7 @@
     <input
       type="text"
       :class="[
-        'w-full rounded-sm bg-[#eee] py-2 pl-4 pr-7  focus:outline-none focus:ring focus:ring-[#5165FD]',
+        'w-full rounded-sm bg-[#eee] py-2 pl-4 pr-7  focus:outline-none focus:ring focus:ring-primary',
         classes
       ]"
       placeholder="بحث"
