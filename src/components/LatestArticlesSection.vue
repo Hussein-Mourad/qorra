@@ -6,10 +6,7 @@ import CardDetails from './CardDetails.vue'
 <template>
   <section class="py-5">
     <div class="flex justify-between py-5">
-      <h1>
-        <span class="ml-2 text-5xl">أحدث</span>
-        <TextWithLines text="المقالات" />
-      </h1>
+      <TextWithLines preText="أحدث" text="المقالات" />
       <button><a href="" class="text-primary">عرض الجميع</a></button>
     </div>
     <div class="space-y-5">

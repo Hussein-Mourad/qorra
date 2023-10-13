@@ -1,15 +1,15 @@
 <template>
   <!-- <div class="mb-8 grid w-full place-items-center"> -->
-  <div class="inline-block text-5xl">
+  <div class="inline-block text-3xl lg:text-5xl">
     <h1>
       {{ preText }} <span class="category_title">{{ text }}</span>
     </h1>
     <div class="relative">
       <svg
-        class="absolute -bottom-[6px] left-8 -z-50"
+        class="absolute -bottom-2 left-6 -z-50 w-7 lg:-bottom-0 lg:left-8 lg:w-12"
         xmlns="http://www.w3.org/2000/svg"
-        :width="49"
-        :height="44"
+        width="49"
+        height="44"
         viewBox="0 0 49 44"
         fill="none"
       >
