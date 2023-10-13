@@ -17,9 +17,9 @@ import SearchInput from './SearchInput.vue'
       </form>
 
       <ul class="hidden items-center text-xl lg:flex">
-        <li class="pl-16">الرئيسية</li>
-        <li class="pl-16">من نحن</li>
-        <li class="pl-32">راسلنا</li>
+        <li class="pl-16"><RouterLink to="/">الرئيسية</RouterLink></li>
+        <li class="pl-16"><RouterLink to="/about">من نحن</RouterLink></li>
+        <li class="pl-32"><RouterLink to="/contact">راسلنا</RouterLink></li>
       </ul>
 
       <RouterLink to="/">
@@ -30,9 +30,9 @@ import SearchInput from './SearchInput.vue'
     </div>
     <div :class="[{ hidden: !showMenu }, 'py-10 text-xl lg:hidden']">
       <ul>
-        <li class="pb-11">الرئيسية</li>
-        <li class="pb-11">من نحن</li>
-        <li class="pb-11">راسلنا</li>
+        <li class="pb-11"><RouterLink to="/">الرئيسية</RouterLink></li>
+        <li class="pb-11"><RouterLink to="/about">من نحن</RouterLink></li>
+        <li class="pb-11"><RouterLink to="/contact">راسلنا</RouterLink></li>
       </ul>
       <Button classes="px-11 py-2">تطوع معنا</Button>
     </div>

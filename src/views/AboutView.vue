@@ -1,7 +1,10 @@
-<template lang="">
-  <div>test</div>
+<template>
+  <main>
+    <HeroAbout />
+  </main>
 </template>
 <script>
-export default {}
+import HeroAbout from '../components/HeroAbout.vue'
+
+export default { components: { HeroAbout } }
 </script>
-<style lang=""></style>

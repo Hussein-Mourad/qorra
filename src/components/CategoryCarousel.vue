@@ -11,7 +11,7 @@
     :per="onSwiper"
     :breakpoints="{
       '@0.00': {
-        slidesPerView: 3,
+        slidesPerView: 4,
         spaceBetween: 10
       },
       '@1.00': {
