@@ -4,7 +4,7 @@ import Card from './Card.vue'
 </script>
 
 <template>
-  <section class="py-5">
+  <section class="py-10">
     <div class="flex justify-between py-5">
       <TextWithLines preText="الأكثر" text="قراءة" />
       <button><a href="" class="text-primary">عرض الجميع</a></button>
